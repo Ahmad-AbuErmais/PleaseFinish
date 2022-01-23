@@ -22,6 +22,7 @@ namespace PleaseFinish
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
 
+
                     webBuilder.UseStartup<Startup>();
                 });
     }
